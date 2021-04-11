@@ -1,13 +1,41 @@
 {
-    "name": "00team",
+    "name": "00-team",
     "displayName": "00 Team",
     "description": "a vscode dark theme for 00 Team",
+    "publisher": "00 Team",
+    "author": {
+        "name": "007"
+    },
     "version": "0.1.0",
     "engines": {
         "vscode": "^1.55.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/00-team/00-team-vscode-theme-dark"
+    },
+    "bugs": {
+        "url": "https://github.com/00-team/00-team-vscode-theme-dark/issues"
+    },
+    "galleryBanner": {
+        "color": "#333",
+        "theme": "dark"
+    },
+    "icon": "img/icon.png",
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "00 Team",
+        "Dark Theme",
+        "00 Theme"
+    ],
+    "badges": [
+        {
+            "url": "https://img.shields.io/badge/-heh%20heh%20boy%20%E2%86%92-gray.svg?colorB=ff652f&style=flat",
+            "href": "https://00-team.github.io",
+            "description": "Kaka Bradar Nadan"
+        }
     ],
     "contributes": {
         "themes": [
