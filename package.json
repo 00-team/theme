@@ -1,0 +1,21 @@
+{
+    "name": "00team",
+    "displayName": "00 Team",
+    "description": "a vscode dark theme for 00 Team",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "00 Team",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            }
+        ]
+    }
+}
