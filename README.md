@@ -1,13 +1,9 @@
-# 00-team-vscode-theme-dark
-a vscode dark theme for 00 Team
+# 00 Team VS Code theme
 
-## [extension](https://marketplace.visualstudio.com/items?itemName=i007c.00-team)
+![00 Team VS Code theme](https://cdn.discordapp.com/attachments/731174051170746500/830819779236724756/Screenshot_244.png)
 
+## Install
 
-## developmet
-
-> ```npm i -g vsce```
-
-> ```vsce package```
-
-> ```vsce publish```
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=i007c.00-team)
+2. Click on the "Install" button
+3. Enjoy
