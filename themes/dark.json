@@ -2,7 +2,7 @@
 	"name": "00 Team",
 	"type": "dark",
 	"colors": {
-		"focusBorder": "#000",
+		"focusBorder": "#F008",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 
@@ -30,7 +30,7 @@
 		"editor.selectionForeground": "#000F",
 		"editor.selectionHighlightBorder": "#000F",
 		"editor.selectionHighlightBackground": "#FFF2",
-		"editorGroupHeader.tabsBackground": "#3337",
+		"editorGroupHeader.tabsBackground": "#3335",
 		"editorGroupHeader.noTabsBackground": "#000",
 		"editorGroupHeader.border": "#F00",
 
@@ -47,7 +47,6 @@
 		"titleBar.activeBackground": "#000D",
 		"titleBar.activeForeground": "#FFF",
 
-
 		"tab.activeBackground": "#000",
 		"tab.inactiveBackground": "#0007",
 		"tab.hoverBackground": "#000D",
@@ -57,7 +56,7 @@
 
 		"button.background": "#F009",
 		"button.foreground": "#FFF",
-		"button.hoverBackground": "#F00A",
+		"button.hoverBackground": "#F00D",
 
 		"scrollbarSlider.activeBackground": "#F00A",
 		"scrollbarSlider.background": "#FFF7",
@@ -71,7 +70,19 @@
 		"statusBar.debuggingBackground": "#000D",
 
 		"window.activeBorder": "#F00A",
-		"window.inactiveBorder": "#000"
+		"window.inactiveBorder": "#000",
+
+		"terminal.border": "#FF0",
+		"terminal.ansiRed": "#E20338",
+
+		"dropdown.background": "#000",
+		"dropdown.listBackground": "#000",
+		"dropdown.border": "#000",
+		"dropdown.foreground": "#FFFE",
+
+		"input.background": "#000",
+		"input.border": "#F00",
+		"input.foreground": "#FFF"
 	},
 	"tokenColors": [
 		{
