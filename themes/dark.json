@@ -12,16 +12,12 @@
 		"sideBarTitle.foreground": "#FFF",
 		"sideBarSectionHeader.border": "#000",
 
-		"editorWarning.foreground": "#F70",
-		"list.warningForeground": "#F70",
-
-		"editorError.foreground": "#F00",
-		"list.errorForeground": "#F00",
-
 		"list.hoverBackground": "#FFF1",
 		"list.activeSelectionBackground": "#FFF2",
 		"list.inactiveSelectionBackground": "#FFF2",
-
+		"list.warningForeground": "#ff7d19",
+		"list.errorForeground": "#F00",
+		
 		"editor.foreground": "#eeffff",
 		"editor.background": "#000",
 		"editor.lineHighlightBackground": "#000F",
@@ -36,6 +32,12 @@
 		"editorGroupHeader.noTabsBackground": "#000",
 		"editorGroupHeader.border": "#F00",
 
+		"editorWarning.foreground": "#ff7d19",
+		"editorError.foreground": "#F00",
+
+		"editorCursor.background": "#FFF",
+		"editorCursor.foreground": "#FFF",
+
 		"activityBar.background": "#000D",
 		"activityBar.activeBorder": "#FFF",
 		"activityBar.activeFocusBorder": "#FFF",
@@ -45,11 +47,10 @@
 
 		"activityBarBadge.background": "#F00",
 
-		"editorCursor.background": "#FFF",
-		"editorCursor.foreground": "#FFF",
-
 		"titleBar.activeBackground": "#000D",
 		"titleBar.activeForeground": "#FFF",
+		"titleBar.inactiveBackground": "#101010",
+		"titleBar.inactiveForeground": "#FFFA",
 
 		"tab.activeBackground": "#000",
 		"tab.inactiveBackground": "#0007",
@@ -78,6 +79,8 @@
 
 		"terminal.border": "#FF0",
 		"terminal.ansiRed": "#E20338",
+		"terminal.ansiBrightRed": "#E20338",
+		"terminal.ansiYellow": "#FFD600",
 
 		"dropdown.background": "#000",
 		"dropdown.listBackground": "#000",
@@ -98,7 +101,11 @@
 		"debugIcon.stepOutForeground": "#1EC9E8",
 		"debugIcon.continueForeground": "#1EC9E8",
 
-		"debugIcon.restartForeground": "#5BFF62"
+		"debugIcon.restartForeground": "#5BFF62",
+
+		"gitDecoration.addedResourceForeground": "#17F1D7",
+		"gitDecoration.modifiedResourceForeground":"#ffd262e8",
+		"gitDecoration.deletedResourceForeground": "#E20338"
 
 	},
 	"tokenColors": [
