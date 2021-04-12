@@ -14,7 +14,7 @@ ext install 00-team-theme
 
 ## Preview
 
-![Theme Preview](img/pr.png)
+![Theme Preview](https://raw.githubusercontent.com/00-team/00-team-vscode-theme-dark/main/img/pr.png)
 
 If you like this theme checkout [00 Team Theme](https://marketplace.visualstudio.com/items?itemName=i007c.00-team-theme)
 
