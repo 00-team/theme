@@ -105,7 +105,13 @@
 
 		"gitDecoration.addedResourceForeground": "#17F1D7",
 		"gitDecoration.modifiedResourceForeground":"#ffd262e8",
-		"gitDecoration.deletedResourceForeground": "#E20338"
+		"gitDecoration.deletedResourceForeground": "#E20338",
+
+		"pickerGroup.border": "#F00",
+		"pickerGroup.foreground": "#DDD",
+		"quickInput.background":"#000",
+		"quickInput.foreground": "#DDD",
+		"quickInputList.focusBackground": "#F004"
 
 	},
 	"tokenColors": [
