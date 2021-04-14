@@ -111,7 +111,13 @@
 		"pickerGroup.foreground": "#DDD",
 		"quickInput.background":"#000",
 		"quickInput.foreground": "#DDD",
-		"quickInputList.focusBackground": "#F004"
+		"quickInputList.focusBackground": "#F004",
+
+		"editorSuggestWidget.background":"#000",
+		"editorSuggestWidget.border":"#F00",
+		"editorSuggestWidget.foreground":"#FFF",
+		"editorSuggestWidget.highlightForeground":"#DC143C",
+		"editorSuggestWidget.selectedBackground":"#FFF2"
 
 	},
 	"tokenColors": [
