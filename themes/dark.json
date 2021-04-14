@@ -259,7 +259,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#ba7858"
+				"foreground": "#ff7b56"
 			}
 		},
 		{
@@ -321,7 +321,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#FF69B4"
 			}
 		},
 		{
