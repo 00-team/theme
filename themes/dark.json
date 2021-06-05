@@ -217,11 +217,28 @@
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
-				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#51EAFF"
+			}
+		},
+		{
+			"name": "Function Call Arguments",
+			"scope": [
+				"meta.function-call.arguments.python"
+			],
+			"settings": {
+				"foreground": "#FFF"
+			}
+		},
+		{
+			"name": "support functions",
+			"scope": [
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#76FEC5"
 			}
 		},
 		{
