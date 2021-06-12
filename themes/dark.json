@@ -117,7 +117,8 @@
 		"editorSuggestWidget.border":"#F00",
 		"editorSuggestWidget.foreground":"#FFF",
 		"editorSuggestWidget.highlightForeground":"#DC143C",
-		"editorSuggestWidget.selectedBackground":"#FFF2"
+		"editorSuggestWidget.selectedBackground":"#FFF2",
+		"editorSuggestWidget.focusHighlightForeground": "#DC40FF"
 
 	},
 	"tokenColors": [
