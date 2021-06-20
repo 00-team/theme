@@ -118,8 +118,20 @@
 		"editorSuggestWidget.foreground":"#FFF",
 		"editorSuggestWidget.highlightForeground":"#DC143C",
 		"editorSuggestWidget.selectedBackground":"#FFF2",
-		"editorSuggestWidget.focusHighlightForeground": "#DC40FF"
+		"editorSuggestWidget.focusHighlightForeground": "#DC40FF",
 
+		"welcomePage.background": "#000",
+		"welcomePage.progress.background":"#111",
+		"welcomePage.progress.foreground":"#F00",
+		"welcomePage.tileBackground":"#000",
+		"welcomePage.tileHoverBackground":"#070707",
+
+		"textLink.foreground":"#F00D",
+		"textLink.activeForeground":"#F00",
+
+		"checkbox.background":"#000",
+		"checkbox.border":"#FFF",
+		"checkbox.foreground":"#FFF"
 	},
 	"tokenColors": [
 		{
