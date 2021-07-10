@@ -214,6 +214,24 @@
 			}
 		},
 		{
+			"name": "Comment Operator",
+			"scope": [
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#35D073"
+			}
+		},
+		{
+			"name": "Dot Color in Python",
+			"scope": [
+				"punctuation.separator.period.python"
+			],
+			"settings": {
+				"foreground": "#76FEC5"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -324,17 +342,16 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
-				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"support.type.exception.python"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FFCB7F"
 			}
 		},
 		{
