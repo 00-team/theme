@@ -2,7 +2,7 @@
 
 a sample dark theme based on black and red colors
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/i007c.00-team-theme.svg)](https://marketplace.visualstudio.com/items?itemName=i007c.00-team-theme) [![Installs](https://vsmarketplacebadge.apphb.com/installs/i007c.00-team-theme.svg)](https://marketplace.visualstudio.com/items?itemName=i007c.00-team-theme) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-star/i007c.00-team-theme.svg)](https://marketplace.visualstudio.com/items?itemName=i007c.00-team-theme) [![GitHub stars](https://img.shields.io/github/stars/00-team/00-team-vscode-theme-dark.svg?color=%234c1&style=flat&label=Stars&maxAge=2592000)](https://github.com/00-team/00-team-vscode-theme-dark)
+[![Version](https://vsmarketplacebadge.apphb.com/version/i007c.00-team-theme.svg?color=F00&label=Version&labelColor=black)](https://marketplace.visualstudio.com/items?itemName=i007c.00-team-theme) [![Installs](https://vsmarketplacebadge.apphb.com/installs/i007c.00-team-theme.svg?color=F00&label=Installs&labelColor=black)](https://marketplace.visualstudio.com/items?itemName=i007c.00-team-theme) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-star/i007c.00-team-theme.svg?color=FFD600&label=Rating&labelColor=black)](https://marketplace.visualstudio.com/items?itemName=i007c.00-team-theme) [![GitHub stars](https://img.shields.io/github/stars/00-team/00-team-vscode-theme-dark.svg?color=FFD600&labelColor=black&style=flat&label=Stars&maxAge=2592000)](https://github.com/00-team/00-team-vscode-theme-dark)
 
 ## Install Theme
 
