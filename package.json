@@ -6,7 +6,7 @@
     "author": {
         "name": "007"
     },
-    "version": "0.1.9",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.53.0"
     },
@@ -30,7 +30,8 @@
         "00 Team",
         "00 Team Theme",
         "Dark Theme",
-        "00 Theme"
+        "00 Theme",
+        "black red"
     ],
     "contributes": {
         "themes": [
