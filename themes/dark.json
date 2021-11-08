@@ -104,8 +104,14 @@
         "debugIcon.stepIntoForeground": "#1EC9E8",
         "debugIcon.stepOutForeground": "#1EC9E8",
         "debugIcon.continueForeground": "#1EC9E8",
-
         "debugIcon.restartForeground": "#5BFF62",
+
+        "debugTokenExpression.name": "#FFCB6B",
+        "debugTokenExpression.value": "#cccd",
+        "debugTokenExpression.string": "#b0ffa2",
+        "debugTokenExpression.boolean": "#5199FF",
+        "debugTokenExpression.number": "#00DC7D",
+        "debugTokenExpression.error": "#E20338",
 
         "gitDecoration.addedResourceForeground": "#17F1D7",
         "gitDecoration.modifiedResourceForeground": "#ffd262e8",
