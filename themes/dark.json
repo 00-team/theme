@@ -7,7 +7,7 @@
         "sideBar.background": "#000000",
         "sideBar.foreground": "#FFFC",
         "sideBarSectionHeader.background": "#000000",
-        "sideBar.dropBackground": "#FFF9",
+        "sideBar.dropBackground": "#FFF2",
         "sideBarSectionHeader.foreground": "#FFFFFF",
         "sideBarTitle.foreground": "#FFFFFF",
         "sideBarSectionHeader.border": "#000000",
@@ -20,7 +20,7 @@
         "list.highlightForeground": "#FFFFFF",
 
         "editor.foreground": "#eeffff",
-        "editor.background": "#000000",
+        "editor.background": "#000",
         "editor.lineHighlightBackground": "#000F",
         "editor.selectionBackground": "#FFF4",
         "editor.selectionForeground": "#000F",
@@ -62,9 +62,9 @@
         "button.foreground": "#FFFFFF",
         "button.hoverBackground": "#F00D",
 
-        "scrollbarSlider.activeBackground": "#F009",
-        "scrollbarSlider.background": "#FFF7",
-        "scrollbarSlider.hoverBackground": "#FFFA",
+        "scrollbarSlider.activeBackground": "#FFF9",
+        "scrollbarSlider.background": "#FFF3",
+        "scrollbarSlider.hoverBackground": "#FFF6",
 
         "minimap.background": "#000000",
 
@@ -76,7 +76,7 @@
         "window.activeBorder": "#F00A",
         "window.inactiveBorder": "#000000",
 
-        "terminal.border": "#FF0",
+        "terminal.border": "#FF0000",
         "terminal.ansiRed": "#E20338",
         "terminal.ansiBrightRed": "#E20338",
         "terminal.ansiYellow": "#FFD600",
@@ -86,8 +86,8 @@
         "dropdown.border": "#000000",
         "dropdown.foreground": "#FFFE",
 
-        "input.background": "#FFF1",
-        "input.foreground": "#FFFFFF",
+        "input.background": "#101010",
+        "input.foreground": "#ddd",
 
         "debugToolBar.background": "#000000",
         "debugConsole.infoForeground": "#FFFFFF",
@@ -123,14 +123,22 @@
         "quickInput.foreground": "#DDDDDD",
         "quickInputList.focusBackground": "#F004",
 
-        "editorWidget.background": "#101010",
+        "editorWidget.background": "#090909",
+        "editorWidget.foreground": "#999",
+        "editorWidget.border": "#333",
 
-        "editorSuggestWidget.background": "#000000",
-        "editorSuggestWidget.border": "#FF0000",
-        "editorSuggestWidget.foreground": "#FFFFFF",
+        "editorHoverWidget.background": "#090909",
+        "editorHoverWidget.border": "#0000",
+
+        "progressBar.background": "#f00",
+
+        "editorSuggestWidget.background": "#090909",
+        "editorSuggestWidget.border": "#0000",
+        "editorSuggestWidget.foreground": "#dddd",
         "editorSuggestWidget.highlightForeground": "#DC143C",
-        "editorSuggestWidget.selectedBackground": "#FFF2",
-        "editorSuggestWidget.focusHighlightForeground": "#DC40FF",
+        "editorSuggestWidget.selectedBackground": "#222",
+        "editorSuggestWidget.selectedIconForeground": "#00CF91",
+        "editorSuggestWidget.focusHighlightForeground": "#00CF91",
 
         "welcomePage.background": "#000000",
         "welcomePage.progress.background": "#111111",
@@ -140,6 +148,7 @@
 
         "textLink.foreground": "#F00D",
         "textLink.activeForeground": "#FF0000",
+        "editorLink.activeForeground": "#00DC7D",
 
         "checkbox.background": "#000000",
         "checkbox.border": "#FFFFFF",
