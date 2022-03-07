@@ -69,7 +69,8 @@
         "minimap.background": "#000",
 
         "statusBar.background": "#000D",
-        "statusBar.foreground": "#FFF",
+        "statusBar.foreground": "#f2f2f2",
+        "statusBar.focusBorder": "#0000",
         "statusBar.noFolderBackground": "#000D",
         "statusBar.debuggingBackground": "#000D",
 
