@@ -7,7 +7,7 @@
         "name": "00 Team",
         "url": "https://web-00-team.web.app/"
     },
-    "version": "0.2.5",
+    "version": "0.2.6",
     "engines": {
         "vscode": "^1.53.0"
     },
