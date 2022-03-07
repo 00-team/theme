@@ -17,15 +17,10 @@ jobs:
               with:
                   node-version: 16
                   registry-url: https://registry.npmjs.org/
-            
-            - name: installing vsce
-              run: npm i -g vsce
-            
+            - run: npm i -g vsce
             - name: Packageing
               run: vsce package
-            
             - name: Publishing
               run: vsce publish
-            
             env:
-              VSCE_PAT: ${{ secrets.PAT }}
+                VSCE_PAT: ${{ secrets.PAT }}
