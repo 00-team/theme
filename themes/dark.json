@@ -3,6 +3,7 @@
     "type": "dark",
     "colors": {
         "focusBorder": "#0000",
+        "selection.background": "#FFF3",
 
         "sideBar.background": "#000",
         "sideBar.foreground": "#FFFC",
@@ -13,19 +14,30 @@
         "sideBarSectionHeader.border": "#000",
 
         "list.hoverBackground": "#FFF1",
-        "list.activeSelectionBackground": "#FFF2",
-        "list.inactiveSelectionBackground": "#FFF2",
+        "list.activeSelectionBackground": "#FFF3",
+        "list.inactiveSelectionBackground": "#FFF1",
         "list.warningForeground": "#FF7D19",
         "list.errorForeground": "#F00",
         "list.highlightForeground": "#FFF",
 
         "editor.foreground": "#EEFFFF",
         "editor.background": "#000",
-        "editor.lineHighlightBackground": "#000F",
-        "editor.selectionBackground": "#FFF4",
-        "editor.selectionForeground": "#000F",
-        "editor.selectionHighlightBorder": "#000F",
+        "editor.lineHighlightBackground": "#000",
+        "editor.selectionBackground": "#FFF3",
+        "editor.selectionHighlightBorder": "#0000",
         "editor.selectionHighlightBackground": "#FFF2",
+
+        "peekView.border": "#666",
+
+        "peekViewEditor.background": "#000",
+        "peekViewEditorGutter.background": "#090909",
+        "peekViewEditor.matchHighlightBackground": "#FFF3",
+
+        "peekViewResult.background": "#090909",
+        "peekViewResult.matchHighlightBackground": "#FFF2",
+        "peekViewResult.selectionBackground": "#FFF2",
+
+        "peekViewTitle.background": "#090909",
 
         "editorGroupHeader.tabsBackground": "#050505",
         "editorGroupHeader.noTabsBackground": "#000",
@@ -71,6 +83,7 @@
         "scrollbarSlider.hoverBackground": "#FFF6",
 
         "minimap.background": "#000",
+        "minimap.selectionHighlight": "#FFF3",
 
         "statusBar.background": "#050505",
         "statusBar.foreground": "#F2F2F2",
@@ -172,7 +185,7 @@
             "name": "Variables",
             "scope": ["variable", "string constant.other.placeholder"],
             "settings": {
-                "foreground": "#FFF"
+                "foreground": "#F2F2F2"
             }
         },
         {
