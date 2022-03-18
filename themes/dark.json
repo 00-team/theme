@@ -37,6 +37,9 @@
         "editorCursor.background": "#FFF",
         "editorCursor.foreground": "#FFF",
 
+        "editorLineNumber.foreground": "#777",
+        "editorLineNumber.activeForeground": "#f2f2f2",
+
         "activityBar.background": "#000D",
         "activityBar.activeBorder": "#FFF",
         "activityBar.activeFocusBorder": "#FFF",
