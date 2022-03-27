@@ -3,7 +3,7 @@
     "type": "dark",
     "colors": {
         "focusBorder": "#0000",
-        "selection.background": "#FFF3",
+        "selection.background": "#950808",
 
         "sideBar.background": "#000",
         "sideBar.foreground": "#FFFC",
