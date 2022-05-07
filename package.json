@@ -1,7 +1,8 @@
 {
     "name": "themes",
     "scripts": {
-        "build": "vsce"
+        "vscode:package": "cd vscode && vsce package",
+        "vscode:publish": "cd vscode && vsce publish"
     },
     "dependencies": {
         "vsce": "^2.7.0"
