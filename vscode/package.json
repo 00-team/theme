@@ -1,0 +1,47 @@
+{
+    "name": "00-team-theme",
+    "displayName": "00 Team Theme",
+    "version": "0.2.9",
+    "description": "a sample dark theme based on black and red colors",
+    "publisher": "i007c",
+    "author": {
+        "name": "00 Team",
+        "url": "https://web-00-team.web.app/"
+    },
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/00-team/00-team-vscode-theme-dark.git"
+    },
+    "homepage": "https://github.com/00-team/00-team-vscode-theme-dark/blob/main/README.md",
+    "bugs": {
+        "url": "https://github.com/00-team/00-team-vscode-theme-dark/issues"
+    },
+    "galleryBanner": {
+        "color": "#000",
+        "theme": "dark"
+    },
+    "icon": "img/icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "00 Team",
+        "00 Team Theme",
+        "Dark Theme",
+        "00 Theme",
+        "black red",
+        "black theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "00 Team",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            }
+        ]
+    }
+}
