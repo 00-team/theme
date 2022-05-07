@@ -4,4 +4,4 @@
 
 ## VSCode
 
-[00 Team Theme](/vscode/README.md) on vscode marketplace
+[00 Team Theme](/vscode/) on vscode marketplace
