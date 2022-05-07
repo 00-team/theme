@@ -1,0 +1,28 @@
+name: Publish into vscode 📦
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vscode/package.json'
+
+jobs:
+  package-n-publish:
+    name: Package and Publish 📦🌃
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - run: npm ci
+
+      - name: Packageing 📦
+        run: npm run vscode:package
+
+      - name: Publishing 💫
+        run: npm run vscode:publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
