@@ -98,6 +98,8 @@
         "terminal.ansiRed": "#E20338",
         "terminal.ansiBrightRed": "#E20338",
         "terminal.ansiYellow": "#FFD600",
+        "terminal.ansiMagenta": "#EF2FA2",
+        "terminal.ansiBrightMagenta": "#F375F3",
 
         "dropdown.background": "#000",
         "dropdown.listBackground": "#000",
