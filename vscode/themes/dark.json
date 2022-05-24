@@ -97,8 +97,8 @@
 
         "terminal.border": "#f00",
         "terminal.ansiRed": "#E20338",
-        "terminal.ansiBrightRed": "#E97451",
-        "terminal.ansiGreen": "#008736",
+        "terminal.ansiBrightRed": "#E20338",
+        "terminal.ansiGreen": "#00DC7D",
         "terminal.ansiBrightGreen": "#00DC7D",
         "terminal.ansiYellow": "#f9ca24",
         "terminal.ansiBrightYellow": "#ffda79",
