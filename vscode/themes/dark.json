@@ -96,7 +96,7 @@
         "window.inactiveBorder": "#050505",
 
         "terminal.border": "#f00",
-        "terminal.ansiRed": "#E20338",
+        "terminal.ansiRed": "#ee0527",
         "terminal.ansiBrightRed": "#E20338",
         "terminal.ansiGreen": "#00DC7D",
         "terminal.ansiBrightGreen": "#00DC7D",
@@ -106,7 +106,7 @@
         "terminal.ansiBrightBlue": "#7EB3FF",
         "terminal.ansiMagenta": "#EF2FA2",
         "terminal.ansiBrightMagenta": "#F375F3",
-        "terminal.ansiCyan": "#2398AB",
+        "terminal.ansiCyan": "#0abde3",
         "terminal.ansiBrightCyan": "#00DFC8",
         "terminal.ansiWhite": "#bbb",
         "terminal.ansiBrightWhite": "#fff",
