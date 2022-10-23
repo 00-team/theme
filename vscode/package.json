@@ -1,7 +1,7 @@
 {
     "name": "00-team-theme",
     "displayName": "00 Team Theme",
-    "version": "0.2.15",
+    "version": "0.2.16",
     "description": "a sample dark theme based on black and red colors",
     "publisher": "i007c",
     "author": {
@@ -13,14 +13,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/00-team/themes.git"
+        "url": "https://github.com/00-team/theme.git"
     },
-    "homepage": "https://github.com/00-team/themes/blob/main/README.md",
+    "homepage": "https://web-00-team.web.app/",
     "bugs": {
-        "url": "https://github.com/00-team/themes/issues"
+        "url": "https://github.com/00-team/theme/issues"
     },
     "galleryBanner": {
-        "color": "#000",
+        "color": "#040404",
         "theme": "dark"
     },
     "icon": "img/icon.png",
@@ -38,9 +38,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "00 Team",
+                "label": "00 Team - modern",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark.json"
+                "path": "./themes/dark_modern.json"
+            },
+            {
+                "label": "00 Team - classic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_classic.json"
             }
         ]
     }

@@ -1,6 +1,6 @@
-# Themes
+# Theme
 
-00 Team Theme
+00 Team based Theme on multiple platforms
 
 ## VSCode
 

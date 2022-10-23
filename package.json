@@ -1,5 +1,5 @@
 {
-    "name": "themes",
+    "name": "theme",
     "scripts": {
         "vscode:package": "cd vscode && vsce package",
         "vscode:publish": "cd vscode && vsce publish"
