@@ -153,6 +153,7 @@
 
         "pickerGroup.border": "#F00",
         "pickerGroup.foreground": "#DDD",
+
         "quickInput.background": "#000",
         "quickInput.foreground": "#DDD",
         "quickInputList.focusBackground": "#F004",
@@ -182,6 +183,7 @@
 
         "textLink.foreground": "#F00D",
         "textLink.activeForeground": "#F00",
+
         "editorLink.activeForeground": "#00DC7D",
 
         "checkbox.background": "#000",
@@ -321,7 +323,6 @@
                 "support.constant",
                 "constant.character",
                 "constant.escape",
-                "variable.parameter",
                 "keyword.other.unit",
                 "keyword.other"
             ],
@@ -796,6 +797,7 @@
         "type:c": "#FFCB7F",
         "function": "#51EAFF",
         "method": "#51EAFF",
-        "magicFunction": "#76FEC5"
+        "magicFunction": "#76FEC5",
+        "parameter": "#FF7B56"
     }
 }
