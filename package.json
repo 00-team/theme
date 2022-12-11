@@ -5,6 +5,6 @@
         "vscode:publish": "cd vscode && vsce publish"
     },
     "dependencies": {
-        "vsce": "^2.7.0"
+        "@vscode/vsce": "^2.15.0"
     }
 }
