@@ -1,8 +1,8 @@
 {
     "name": "00-team-theme",
     "displayName": "00 Team Theme",
-    "version": "0.2.16",
-    "description": "a sample dark theme based on black and red colors",
+    "version": "0.2.17",
+    "description": "true dark color theme",
     "publisher": "i007c",
     "author": {
         "name": "00 Team",
