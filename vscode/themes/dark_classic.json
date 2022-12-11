@@ -188,6 +188,7 @@
         "checkbox.border": "#FFF",
         "checkbox.foreground": "#FFF"
     },
+
     "tokenColors": [
         {
             "name": "Comment",
@@ -198,6 +199,14 @@
             }
         },
         {
+            "name": "Comment Operator",
+            "scope": ["punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#35D073"
+            }
+        },
+        // -----------
+        {
             "name": "Variables",
             "scope": ["variable", "string constant.other.placeholder"],
             "settings": {
@@ -205,12 +214,35 @@
             }
         },
         {
+            "name": "Block Level Variables",
+            "scope": ["meta.block variable.other"],
+            "settings": {
+                "foreground": "#FFF"
+            }
+        },
+        {
+            "name": "Other Variable, String Link",
+            "scope": ["support.other.variable", "string.other.link"],
+            "settings": {
+                "foreground": "#FFF"
+            }
+        },
+        {
+            "name": "Function Argument",
+            "scope": ["variable.parameter"],
+            "settings": {
+                "foreground": "#FF7B56"
+            }
+        },
+        // -----------
+        {
             "name": "Colors",
             "scope": ["constant.other.color"],
             "settings": {
                 "foreground": "#FFF"
             }
         },
+        // -----------
         {
             "name": "Invalid",
             "scope": ["invalid", "invalid.illegal"],
@@ -225,6 +257,7 @@
                 "foreground": "#F375F3"
             }
         },
+        // -----------
         {
             "name": "Operator, Misc",
             "scope": [
@@ -254,12 +287,20 @@
             }
         },
         {
-            "name": "Comment Operator",
-            "scope": ["punctuation.definition.comment"],
+            "name": "Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "constant.other.symbol",
+                "constant.other.key",
+                "entity.other.inherited-class",
+                "markup.heading",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+            ],
             "settings": {
-                "foreground": "#35D073"
+                "foreground": "#FC427B"
             }
         },
+        // -----------
         {
             "name": "Tag",
             "scope": [
@@ -271,48 +312,9 @@
                 "foreground": "#569CD6"
             }
         },
+        // -----------
         {
-            "name": "Function, Special Method",
-            "scope": [
-                "entity.name.function",
-                "meta.function-call",
-                "variable.function",
-                "keyword.other.special-method"
-            ],
-            "settings": {
-                "foreground": "#51EAFF"
-            }
-        },
-        {
-            "name": "Function Call Arguments",
-            "scope": ["meta.function-call.arguments.python"],
-            "settings": {
-                "foreground": "#FFF"
-            }
-        },
-        {
-            "name": "support functions",
-            "scope": ["support.function"],
-            "settings": {
-                "foreground": "#76FEC5"
-            }
-        },
-        {
-            "name": "Block Level Variables",
-            "scope": ["meta.block variable.other"],
-            "settings": {
-                "foreground": "#FFF"
-            }
-        },
-        {
-            "name": "Other Variable, String Link",
-            "scope": ["support.other.variable", "string.other.link"],
-            "settings": {
-                "foreground": "#FFF"
-            }
-        },
-        {
-            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "name": "Number, Constant",
             "scope": [
                 "constant.numeric",
                 "constant.language",
@@ -327,27 +329,41 @@
                 "foreground": "#00DC7D"
             }
         },
+        // -----------
         {
-            "name": "Function Argument",
-            "scope": ["variable.parameter"],
+            "name": "Function",
+            "scope": ["entity.name.function.c"],
             "settings": {
-                "foreground": "#FF7B56"
+                "foreground": "#51EAFF"
+            }
+        },
+        // {
+        //     "name": "Function, Special Method",
+        //     "scope": [
+        //         "entity.name.function",
+        //         "meta.function-call",
+        //         "variable.function",
+        //         "keyword.other.special-method"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#51EAFF"
+        //     }
+        // },
+        {
+            "name": "Function Call Arguments",
+            "scope": ["meta.function-call.arguments.python"],
+            "settings": {
+                "foreground": "#FFF"
             }
         },
         {
-            "name": "Symbols, Inherited Class, Markup Heading",
-            "scope": [
-                "constant.other.symbol",
-                "constant.other.key",
-                "entity.other.inherited-class",
-                "markup.heading",
-                "markup.inserted.git_gutter",
-                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-            ],
+            "name": "support functions",
+            "scope": ["support.function"],
             "settings": {
-                "foreground": "#FC427B"
+                "foreground": "#76FEC5"
             }
         },
+        // -----------
         {
             "name": "String",
             "scope": ["string"],
@@ -409,6 +425,7 @@
                 "foreground": "#FF5370"
             }
         },
+        // -----------
         {
             "name": "entity.name.method.js",
             "scope": ["entity.name.method.js"],
@@ -522,6 +539,7 @@
                 "foreground": "#FF5370"
             }
         },
+        // -----------
         {
             "name": "JSON Key - Level 0",
             "scope": [
@@ -603,6 +621,7 @@
                 "foreground": "#C3E88D"
             }
         },
+        // -----------
         {
             "name": "Markdown - Plain",
             "scope": [
@@ -770,5 +789,13 @@
                 "foreground": "#EEFFFF"
             }
         }
-    ]
+    ],
+
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "type:c": "#FFCB7F",
+        "function": "#51EAFF",
+        "method": "#51EAFF",
+        "magicFunction": "#76FEC5"
+    }
 }
