@@ -38,14 +38,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "00 Team - modern",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark_modern.json"
-            },
-            {
                 "label": "00 Team - classic",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark_classic.json"
+            },
+            {
+                "label": "00 Team - modern",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_modern.json"
             }
         ]
     }
