@@ -13,7 +13,8 @@ typedef struct {
     unsigned int age;
 } Person;
 
-void read_db(void) {
+void read_db(int some_arg) {
+    printf("%d\n", some_arg);
     FILE *db;
     db = fopen(PEOPLE_DB, "r");
 
@@ -31,7 +32,7 @@ int main() {
     printf("sizeof Person: %ld\n", sizeof(Person));
     printf("sizeof Person.name: %ld\n", member_size(Person, name));
 
-    read_db();
+    read_db(12);
 
     return 0;
 }
