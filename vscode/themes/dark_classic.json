@@ -789,6 +789,27 @@
             "settings": {
                 "foreground": "#EEFFFF"
             }
+        },
+        {
+            "name": "Makefile Target",
+            "scope": "entity.name.function.target.makefile",
+            "settings": {
+                "foreground": "#51EAFF"
+            }
+        },
+        {
+            "name": "Makefile Prerequisites",
+            "scope": "meta.scope.prerequisites.makefile",
+            "settings": {
+                "foreground": "#5199FF"
+            }
+        },
+        {
+            "name": "Makefile Placeholder",
+            "scope": "constant.other.placeholder.makefile",
+            "settings": {
+                "foreground": "#F9CA24"
+            }
         }
     ],
 
