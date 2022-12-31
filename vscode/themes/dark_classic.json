@@ -810,6 +810,58 @@
             "settings": {
                 "foreground": "#F9CA24"
             }
+        },
+
+        // log files
+        {
+            "name": "LOG DEBUG TAG",
+            "scope": "log.debug",
+            "settings": {
+                "foreground": "#fe53ce"
+            }
+        },
+        {
+            "name": "LOG INFO TAG",
+            "scope": "log.info",
+            "settings": {
+                "foreground": "#5199FF"
+            }
+        },
+        {
+            "name": "LOG WARN TAG",
+            "scope": "log.warning",
+            "settings": {
+                "foreground": "#FFD600"
+            }
+        },
+        {
+            "name": "LOG ERROR TAG",
+            "scope": "log.error",
+            "settings": {
+                "foreground": "#e02045"
+            }
+        },
+        {
+            "name": "LOG DATES",
+            "scope": "log.date",
+            "settings": {
+                "foreground": "#444",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "LOG Exception Type",
+            "scope": "log.exceptiontype",
+            "settings": {
+                "foreground": "#FFCB7F"
+            }
+        },
+        {
+            "name": "LOG Exception",
+            "scope": "log.exception",
+            "settings": {
+                "foreground": "#EF2FA2"
+            }
         }
     ],
 
